@@ -29,9 +29,7 @@ implementation 'io.iceflower:reactive-spring-boot-starter:1.0.0'
 
 - `io.reactivex.rxjava3.core.Observable`
 - `io.reactivex.rxjava3.core.Single`
-- `io.reactivex.rxjava3.core.Flowable`
 - `reactor.core.publisher.Mono`
-- `reactor.core.publisher.Flux`
 
 RxJava3 예제:
 
