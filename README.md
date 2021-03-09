@@ -140,7 +140,7 @@ public static class Events {
 
     @RequestMapping(method = RequestMethod.GET, value = "/messages")
     public FluxSseEmitter<String> messages() {
-        return new FlowableSseEmitter<String>(
+        return new FluxSseEmitter<String>(
             Flux.just(
                 "message 1", "message 2", "message 3"
             )
