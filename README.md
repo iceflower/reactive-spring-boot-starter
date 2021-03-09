@@ -35,7 +35,7 @@ implementation 'io.iceflower:reactive-spring-boot-starter:1.0.0'
 
 RxJava3 예제:
 
-```
+```java
 @RestController
 public static class InvoiceResource {
 
@@ -49,7 +49,7 @@ public static class InvoiceResource {
     }
 }
 ```
-```
+```java
 @RestController
 public static class InvoiceResource {
 
@@ -65,7 +65,7 @@ public static class InvoiceResource {
 ```
 
 Reactor3 예제:
-```
+```java
 @RestController
 public static class InvoiceResource {
 
@@ -102,7 +102,7 @@ HTTP 헤더 또는 상테코드를 제어하기 위해 `ResponseEntity` 도 같�
 상기한 객체 덕분에 `io.reactivex.rxjava3.core.Observable`, `io.reactivex.rxjava3.core.Flowable`, `reactor.core.publisher.Flux` 를 활용한 Server-Sent-Events 기능을 구현할 수 있습니다.
 
 `ObservableSseEmitter` 예제 :
-```
+```java
 @RestController
 public static class Events {
 
@@ -118,7 +118,7 @@ public static class Events {
 ```
 
 `FlowableSseEmitter` 예제 :
-```
+```java
 @RestController
 public static class Events {
 
@@ -134,7 +134,7 @@ public static class Events {
 ```
 
 `FluxSseEmitter` 예제 :
-```
+```java
 @RestController
 public static class Events {
 
