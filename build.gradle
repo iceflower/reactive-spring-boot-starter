@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "io.iceflower"
-archivesBaseName="rxjava-spring-boot-starter"
+archivesBaseName="reactive-spring-boot-starter"
 version = '1.0.0'
 sourceCompatibility = '11'
 
@@ -24,7 +24,7 @@ bootJar {
 jar {
     enabled = true
     manifest {
-        attributes 'Implementation-Title': 'rxjava-spring-boot-starter'
+        attributes 'Implementation-Title': 'reactive-spring-boot-starter'
     }
 }
 
